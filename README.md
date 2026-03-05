@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# StreamForge Web
+
+Frontend for **StreamForge**, an open-source protocol for transparent contribution tracking and reward streaming.
+
+Built with **Next.js, TypeScript, and TailwindCSS**.
+
+---
+
+## Overview
+
+StreamForge enables open-source communities to:
+
+- Track contributor activity
+- Calculate contribution impact
+- Stream rewards transparently
+
+This repository contains the **web interface** for interacting with the StreamForge ecosystem.
+
+---
+
+## Tech Stack
+
+- Next.js (App Router)
+- React
+- TypeScript
+- TailwindCSS
+
+---
+
+## Project Structure
+
+```
+src
+ ├── app          # Next.js routes and layouts
+ ├── components   # Reusable UI components
+ ├── features     # Feature-based modules
+ ├── hooks        # Custom React hooks
+ ├── lib          # Utilities and helpers
+ └── styles       # Global styles
+```
+
+---
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+We welcome contributions from developers of all experience levels.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Before contributing:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Check existing issues
+2. Discuss major changes
+3. Follow the project structure
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Related Repositories
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+StreamForge is composed of multiple services:
+
+- `streamforge-web` — frontend interface
+- `streamforge-api` — backend service (NestJS)
+- `streamforge-contract` — core protocol engine (Rust)
+
+---
+
+## License
+
+MIT
